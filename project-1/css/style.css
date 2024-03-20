@@ -1,0 +1,251 @@
+.navbar{
+    background-color: black;
+    height: 50px;
+    width: 100%;
+}
+.navbar ul{
+    color: aliceblue;
+    text-align: center;
+    padding-top: 11px;
+    margin-top: -5px;
+    width: 100%;
+}
+.navbar li{
+    display: inline;
+    padding: 0px 100px 0px 0px;
+    font-size: 20px;
+    font-family: 'Open Sans',sans-serif;
+}
+.image1{
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("../images/intro-bg.jpg");
+    height: 700px;
+    font-size: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    float: left;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 5%;
+    
+}
+.image1 p{
+    font-size: 140px;
+    font-family:cursive;
+    padding: 35px  0px 0px 610px;
+    color:white;
+    font-family: 'rochester', cursive;
+    font-weight: 400;
+
+}
+h6{
+    color: white;
+    font-size: 25px; 
+    padding: 0px 0px 0px 630px;
+}
+.heading{
+    font-size: 50px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.heading p{
+    padding-top: 90px;
+}
+.threepics{
+    display: flex;
+    text-align: center;
+    height: 450px;
+    margin-bottom: 50px;
+}
+.pic1{
+    width: 400px;
+    padding: 0px 52px 0px 50px;
+}
+.pic1 img{
+    width:400px;
+    height:250px;
+    font-size: 20px;
+}
+.pic2{
+    width: 400px;
+    padding: 0px 52px 0px 50px;
+}
+.pic2 img{
+    width:400px;
+    height:250px;
+    font-size: 20px;
+}
+.pic3{
+    width: 400px;
+    padding: 0px 52px 0px 50px;
+}
+.pic3 img{
+    width:400px;
+    height:250px;
+    font-size: 20px;
+}
+h5{
+    font-size: 20px;
+    font-weight: 20;
+}
+.class3{
+    display: flex;
+    height: 600px;
+}
+.pic{
+    width: 50%;
+}
+.pic img{
+    width: 750px;
+    height: 500px;
+    margin: 20px 0px 0px 40px;
+}
+.text{
+    width: 20%;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.text p{
+    color: rgb(170, 167, 167);
+    font-size: 18px;
+}
+
+.heading2{
+    text-align: center;
+    font-size: 40px;
+    text-decoration: underline;
+}
+.class4{
+    display: flex;
+    margin-left: 7px;
+    margin-top: 100px;
+    height: 300px;
+}
+.class41 img{
+    width: 375px;
+}
+.class42 img{
+    width: 375px;
+}
+.class43 img{
+    width: 375px;
+}
+.class44 img{
+    width: 375px;
+}
+.class5{
+    margin-top: 25px;
+    display: flex;
+    height: 500px;
+}
+.text1{
+    padding-top: 20px;
+    width: 25%;
+    margin-left: 200px;
+    font-size: 19px;
+}
+.text1 p{
+    padding-top: 50px;
+}
+h2{
+    font-size: 40px;
+}
+.chef{
+    width: 50%;
+}
+.chef img{
+    padding: 15px 180px 0px 120px;
+    height: 390px;
+    width:600px;
+}
+h2{
+    text-decoration: underline;
+    font-weight: 60;
+}
+.main{
+    background-color: rgb(21, 21, 21);
+    height: 350px;
+    color: rgb(205, 205, 205);
+    display: flex;
+}
+h2{
+    font-size: 20px;
+}
+.main1{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.main2{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.main3{
+    text-align: center;
+    text-decoration: underline;
+    width: 550px;
+    padding-top: 90px;
+    height: 220px;
+}
+.line{
+    text-align: center;
+    color: rgb(119, 119, 119);
+    background-color:  rgb(21, 21, 21);
+    height: 80px;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.information{
+    height: 350px;
+    background-color:  rgb(21, 21, 21);
+    padding: 0% 0% 1% 25%;
+}
+#name{
+    background-color: rgb(87, 87, 87);
+    width: 360px;
+    height: 35px;
+    margin: 0% 2% 1.5% 0% ;
+    border: 1px solid rgb(105, 105, 105);
+    color: rgb(205, 205, 205);
+    font-size: 18px;
+}
+#message{
+    background-color: rgb(87, 87, 87);
+    margin: 0% 2% 2% 0%;
+    border: 1px solid rgb(105, 105, 105);
+    font-size: 18px;
+    color: rgb(205, 205, 205);
+    padding-bottom: 150px;
+    padding-right:530px;
+}
+#email{
+    background-color: rgb(105, 105, 105);
+    width: 360px;
+    height: 35px;
+    margin-right: 2%;
+    border: 1px solid rgb(105, 105, 105);
+    margin-bottom: 1%;
+    color: rgb(205, 205, 205);
+    font-size: 18px;
+}
+#submit{
+    background-color: rgb(21, 21, 21);
+    width: 150px;
+    height: 50px;
+    margin:0% 2% 1% 27%;
+    border: 2px solid rgb(105, 105, 105);
+    color: rgb(205, 205, 205);
+}
+.footer{
+    background-color: black;
+    height: 80px;
+    color: rgb(205, 205, 205);
+    padding-top: 50px;
+    padding-left: 150px;
+    text-align: center;
+}
